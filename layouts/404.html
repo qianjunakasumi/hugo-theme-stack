@@ -1,7 +1,8 @@
 {{ define "main" }}
     <div class="not-found-card">
-        <h1 class="article-title">{{ T "notFound.title" }}</h1>
+        <h1 class="article-title">404 {{ T "notFound.title" }}</h1>
         <h2 class="article-subtitle">{{ T "notFound.subtitle" }}</h2>
+        <img src="https://raw.githubusercontent.com/SAWARATSUKI/KawaiiLogos/refs/heads/main/ResponseCode/404%20NotFound.png" alt="KawaiiLogos 404 NotFound" title="KawaiiLogos 404 NotFound">
     </div>
     {{ partialCached "footer/footer" . }}
 {{ end }}

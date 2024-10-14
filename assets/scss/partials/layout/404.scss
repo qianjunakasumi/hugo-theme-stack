@@ -3,4 +3,8 @@
     box-shadow: var(--shadow-l1);
     border-radius: var(--card-border-radius);
     padding: var(--card-padding);
+
+    img {
+        width: 50%;
+    }
 }
