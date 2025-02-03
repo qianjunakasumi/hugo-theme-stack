@@ -67,7 +67,7 @@ search:
 
 footer:
     builtWith:
-        other: {{ .Generator }}
+        other: "{{ .Generator }}"
 
     designedBy:
         other: Theme {{ .Theme }} by {{ .DesignedBy }}
